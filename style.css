@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fff6c9;
+}
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-evenly;
+    padding: 1.15rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    /* min-height: 45vh; */
+    height: 400px;
+    /* width: 45vh; */
+    width: 300px;
+}
+.mainDiv .p1{
+    font-size: 25px;
+    font-weight: 600;
+}
+.mainDiv .p2{
+    font-size: 18px;
+    font-weight: 500;
+}
+.mainDiv input{
+    border: 2px solid #d2d2d2f3;
+    padding: 15px 9px;
+    border-radius: 0.5rem;
+    width: 98%;
+    font-weight: bold;
+}
+.fromTo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #de1818; */
+}
+.fromTo .exchange{
+    margin-top: 20px;
+}
+.select-Container{
+    border: 1px solid #d2d2d2f3;
+    padding: 2px 6px;
+    border-radius: 0.5rem;
+    width: 98%;
+    font-weight: bold;
+}
+.select-Container{
+    display: flex;
+}
+.select-Container #selection{
+    border: none;
+    outline: none;
+    font-size: medium;
+    font-weight: 500;
+}
+.select-Container img{
+    width: 2.1rem;
+
+}
+.mainDiv button{
+    border: 2px solid #d2d2d2f3;
+    background-color: #933c85;
+    color: #fff;
+    font-size: 18px;
+    padding: 11px 9px;
+    border-radius: 0.7rem;
+    width: 98%;
+    font-weight: 500;
+    cursor: pointer;
+}
+.mainDiv button:hover{
+    background-color: #ab459a;
+}
+.date{
+    margin-bottom: -10px;
+    color: #933c85;
+    font-weight: bold;
+}
